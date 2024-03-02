@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+section{
+    /* background-color: #eeeeee; */
+    /* border: 1px solid grey; */
+    border-radius: 10px;
+    padding: 30px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+table, tr, td{
+    padding: 6px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bolder;
+}
+
+p {
+  text-align: center;
+}
+
+input {
+  width: 370px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid grey;
+}
+
+button {
+  width: 389px;
+  background-color: #14213d;
+  color: white;
+  border-radius: 6px;
+  padding: 8px;
+  border: 1px solid grey;
+  margin-top: 6px;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 1s;
+}
+
+#main {
+  height: 80vh;
+}
